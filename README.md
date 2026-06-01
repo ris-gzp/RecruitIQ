@@ -112,6 +112,32 @@ Upload your resume. Match any job. Get AI career coaching — all in one place.
 
 ---
 
+### Quick Start — Windows (Recommended)
+
+After completing the one-time setup below, you can launch and stop the entire stack with a single double-click.
+
+| Script | What it does |
+|--------|-------------|
+| `start.bat` | Opens two Windows Terminal tabs — backend and frontend — then auto-launches the app in your browser |
+| `stop.bat` | Finds and kills all processes on ports 8000, 5173, and 5174 |
+
+```
+# Launch everything
+> double-click start.bat
+  Tab 1 → activates venv, starts uvicorn on :8000
+  Tab 2 → runs npm run dev on :5173
+  Browser opens http://localhost:5173 automatically after 4 s
+
+# Shut everything down
+> double-click stop.bat
+  [STOPPED] Backend  (uvicorn) -- PID 12345
+  [STOPPED] Frontend (Vite)    -- PID 67890
+```
+
+> **Note:** `start.bat` requires [Windows Terminal](https://aka.ms/terminal) (`wt.exe`), which comes pre-installed on Windows 11. The one-time setup (venv creation, `pip install`, `npm install`) must be done manually the first time — see steps 2 and 3 below.
+
+---
+
 ### 1. Clone the repository
 
 ```bash
@@ -226,6 +252,8 @@ curl -X POST http://localhost:8000/api/match-job \
 
 ```
 RecruitIQ/
+├── start.bat                # One-click launcher — opens both servers in Windows Terminal
+├── stop.bat                 # One-click stopper — kills processes on ports 8000/5173/5174
 ├── backend/
 │   ├── main.py              # FastAPI app — all endpoints and AI logic
 │   ├── requirements.txt     # Python dependencies
@@ -244,6 +272,8 @@ RecruitIQ/
 │           ├── ResumeUpload.jsx   # PDF drop-zone + analysis display
 │           ├── JobMatcher.jsx     # JD input + score ring + skill diff
 │           └── ChatAdvisor.jsx    # Chat UI + quick Q&A chips
+├── docs/
+│   └── screenshots/         # SVG mockup images used in this README
 ├── .gitignore
 └── README.md
 ```
