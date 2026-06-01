@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0a1e"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1035;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0f0a1e;stop-opacity:0.9"/>
+    </linearGradient>
+    <linearGradient id="userBubble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.22"/>
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.18"/>
+    </linearGradient>
+    <linearGradient id="sendBtn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <filter id="orbBlur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <circle cx="80" cy="300" r="120" fill="#7c3aed" opacity="0.07" filter="url(#orbBlur)"/>
+  <circle cx="820" cy="200" r="140" fill="#06b6d4" opacity="0.06" filter="url(#orbBlur)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="900" height="52" fill="#ffffff" fill-opacity="0.03"/>
+  <rect x="0" y="51" width="900" height="1" fill="#ffffff" fill-opacity="0.07"/>
+  <text x="36" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="url(#accent)">◈</text>
+  <text x="56" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#7c3aed">Recruit</text>
+  <text x="108" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#06b6d4">IQ</text>
+  <text x="450" y="32" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b">AI-Powered Career Intelligence Platform</text>
+  <rect x="676" y="14" width="188" height="24" rx="12" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="692" cy="26" r="4" fill="#10b981"/>
+  <text x="702" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#6ee7b7">Alex Johnson · Resume loaded</text>
+
+  <!-- Nav tabs -->
+  <rect x="36" y="64" width="100" height="34" rx="10" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="86" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#64748b">📄 Resume</text>
+  <rect x="148" y="64" width="100" height="34" rx="10" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="198" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#64748b">🎯 Job Match</text>
+  <rect x="260" y="64" width="110" height="34" rx="10" fill="url(#accent)" opacity="0.9"/>
+  <text x="315" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="600" fill="white">✨ AI Advisor</text>
+
+  <!-- Chat card -->
+  <rect x="36" y="112" width="828" height="385" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+
+  <!-- Card title row -->
+  <text x="62" y="146" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f1f5f9">✨  RecruitIQ Advisor</text>
+  <rect x="676" y="128" width="160" height="24" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="756" y="144" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#94a3b8">📋 Alex Johnson loaded</text>
+
+  <!-- Divider -->
+  <rect x="62" y="156" width="776" height="1" fill="#ffffff" fill-opacity="0.06"/>
+
+  <!-- AI message 1 -->
+  <rect x="62" y="168" width="28" height="28" rx="9" fill="url(#sendBtn)"/>
+  <text x="76" y="186" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="white">◈</text>
+  <rect x="100" y="165" width="440" height="42" rx="13" fill="#0e0a1e" fill-opacity="0.8" stroke="#7c3aed" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="100" y="165" width="3" height="42" rx="1.5" fill="none"/>
+  <text x="116" y="181" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#e2e8f0">Hey Alex! I've analyzed your resume. You have strong Python &amp; React skills. Would you like</text>
+  <text x="116" y="197" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#e2e8f0">interview prep tips, salary guidance, or shall I do a mock interview?</text>
+
+  <!-- User message -->
+  <rect x="490" y="222" width="310" height="28" rx="13" fill="url(#userBubble)" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="644" y="240" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#f1f5f9">Tell me about yourself (mock interview mode)</text>
+  <rect x="808" y="222" width="28" height="28" rx="9" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="822" y="241" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#94a3b8">👤</text>
+
+  <!-- AI message 2 (mock interview answer) -->
+  <rect x="62" y="264" width="28" height="28" rx="9" fill="url(#sendBtn)"/>
+  <text x="76" y="282" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="white">◈</text>
+  <rect x="100" y="261" width="600" height="78" rx="13" fill="#0e0a1e" fill-opacity="0.8" stroke="#7c3aed" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="116" y="278" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#e2e8f0">I'm Alex Johnson, a Senior Software Engineer with 6 years of experience building full-stack</text>
+  <text x="116" y="294" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#e2e8f0">applications. I specialize in Python and React, and I've led teams shipping cloud-native products</text>
+  <text x="116" y="310" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#e2e8f0">on AWS. Most recently I contributed to open source tooling used by 2,000+ developers. I'm</text>
+  <text x="116" y="326" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#e2e8f0">looking to bring my skills to a high-impact engineering role.</text>
+
+  <!-- Quick Q&A section -->
+  <rect x="62" y="352" width="776" height="60" rx="12" fill="#000000" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <text x="78" y="370" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="700" fill="#334155" letter-spacing="1">🎤  QUICK Q&amp;A — ANSWER AS CANDIDATE</text>
+
+  <!-- Q&A chips -->
+  <rect x="78" y="376" width="130" height="22" rx="11" fill="#7c3aed" fill-opacity="0.08" stroke="#7c3aed" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="143" y="391" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">🎓 What is your CGPA?</text>
+  <rect x="216" y="376" width="130" height="22" rx="11" fill="#7c3aed" fill-opacity="0.08" stroke="#7c3aed" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="281" y="391" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">👤 Tell me about yourself</text>
+  <rect x="354" y="376" width="130" height="22" rx="11" fill="#7c3aed" fill-opacity="0.08" stroke="#7c3aed" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="419" y="391" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">⚡ What are your top skills?</text>
+  <rect x="492" y="376" width="154" height="22" rx="11" fill="#7c3aed" fill-opacity="0.08" stroke="#7c3aed" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="569" y="391" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">💼 What internships have you done?</text>
+
+  <!-- Input row -->
+  <rect x="62" y="424" width="716" height="44" rx="13" fill="#000000" fill-opacity="0.35" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+  <text x="82" y="450" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#334155">Ask about your career, resume, interviews, salary…</text>
+  <rect x="786" y="424" width="44" height="44" rx="13" fill="url(#sendBtn)"/>
+  <text x="808" y="452" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="16" fill="white">↑</text>
+
+  <!-- Footer -->
+  <rect x="0" y="500" width="900" height="20" fill="#ffffff" fill-opacity="0.02"/>
+  <text x="450" y="514" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#1e293b">RecruitIQ © 2026 · Powered by OpenRouter AI · Data processed securely in-session</text>
+</svg>

@@ -19,11 +19,23 @@ Upload your resume. Match any job. Get AI career coaching — all in one place.
 
 ## Screenshots
 
-> _The full dark-glassmorphism UI running locally_
+**1 — Resume Upload**
 
-| Resume Analysis | Job Match Score | AI Advisor |
-|:-:|:-:|:-:|
-| Upload a PDF and get instant skills extraction, strengths, and a professional summary | Paste a job description and receive a 0–100 ATS compatibility score with gap analysis | Chat with an AI career coach that speaks as you in mock interview mode |
+![Resume Upload](https://raw.githubusercontent.com/ris-gzp/RecruitIQ/main/docs/screenshots/resume-upload.svg)
+
+> Drag-and-drop PDF upload with an animated drop zone. Hit **Analyze Resume** and the AI extracts your profile in seconds.
+
+**2 — Resume Intelligence Report**
+
+![Resume Intelligence Report](https://raw.githubusercontent.com/ris-gzp/RecruitIQ/main/docs/screenshots/resume-intelligence.svg)
+
+> Your AI-generated career profile: name, title, years of experience, key skills, a professional summary, strengths, and growth areas.
+
+**3 — AI Career Advisor**
+
+![AI Career Advisor](https://raw.githubusercontent.com/ris-gzp/RecruitIQ/main/docs/screenshots/ai-advisor.svg)
+
+> Conversational career coach with full resume context. Use Quick Q&A chips to trigger **mock interview mode** — the AI answers as you, in first person.
 
 ---
 

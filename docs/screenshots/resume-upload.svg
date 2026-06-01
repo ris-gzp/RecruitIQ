@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0a1e"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1035;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0f0a1e;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- orb blur -->
+    <filter id="orbBlur">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="520" fill="url(#bg)"/>
+
+  <!-- Decorative orbs -->
+  <circle cx="100" cy="100" r="120" fill="#7c3aed" opacity="0.08" filter="url(#orbBlur)"/>
+  <circle cx="800" cy="400" r="150" fill="#06b6d4" opacity="0.07" filter="url(#orbBlur)"/>
+  <circle cx="750" cy="80"  r="90"  fill="#3b82f6" opacity="0.07" filter="url(#orbBlur)"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="900" height="52" fill="#ffffff" fill-opacity="0.03" rx="0"/>
+  <rect x="0" y="51" width="900" height="1" fill="#ffffff" fill-opacity="0.07"/>
+
+  <!-- Logo -->
+  <text x="36" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="url(#accent)">◈</text>
+  <text x="56" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#7c3aed">Recruit</text>
+  <text x="108" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#06b6d4">IQ</text>
+
+  <!-- Tagline -->
+  <text x="450" y="32" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b">AI-Powered Career Intelligence Platform</text>
+
+  <!-- Nav tabs -->
+  <rect x="36" y="64" width="100" height="34" rx="10" fill="url(#accent)" opacity="0.9"/>
+  <text x="86" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="600" fill="white">📄 Resume</text>
+  <rect x="148" y="64" width="100" height="34" rx="10" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="198" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#64748b">🎯 Job Match</text>
+  <rect x="260" y="64" width="110" height="34" rx="10" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="315" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#64748b">✨ AI Advisor</text>
+
+  <!-- Upload card -->
+  <rect x="36" y="112" width="540" height="370" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+
+  <!-- Card title -->
+  <text x="62" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f1f5f9">📄  Upload Your Resume</text>
+  <text x="62" y="168" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b">Drop your PDF resume below. RecruitIQ will extract your skills and craft a personalized career profile.</text>
+
+  <!-- Drop zone -->
+  <rect x="62" y="182" width="488" height="150" rx="14" fill="#7c3aed" fill-opacity="0.04" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- Upload icon -->
+  <text x="306" y="234" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="34" fill="url(#accent)" opacity="0.7">↑</text>
+  <text x="306" y="268" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#94a3b8">Drop your resume here or <tspan fill="#a78bfa" text-decoration="underline">browse files</tspan></text>
+  <text x="306" y="288" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#334155">PDF · Max 10 MB</text>
+
+  <!-- Analyze button -->
+  <rect x="62" y="348" width="148" height="38" rx="10" fill="url(#accent)"/>
+  <text x="136" y="372" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="600" fill="white">◈ Analyze Resume</text>
+
+  <!-- Right info panel -->
+  <rect x="596" y="112" width="268" height="370" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+  <text x="620" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#f1f5f9">How it works</text>
+
+  <!-- Steps -->
+  <circle cx="636" cy="176" r="12" fill="#7c3aed" fill-opacity="0.2" stroke="#7c3aed" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="636" y="181" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">1</text>
+  <text x="656" y="174" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Upload PDF</text>
+  <text x="656" y="188" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#64748b">Drop your resume file</text>
+
+  <circle cx="636" cy="220" r="12" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="636" y="225" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#93c5fd">2</text>
+  <text x="656" y="218" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">AI Analysis</text>
+  <text x="656" y="232" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#64748b">Skills &amp; profile extracted</text>
+
+  <circle cx="636" cy="264" r="12" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="636" y="269" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#67e8f9">3</text>
+  <text x="656" y="262" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Unlock Features</text>
+  <text x="656" y="276" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#64748b">Match jobs &amp; get coaching</text>
+
+  <!-- Feature pills -->
+  <rect x="620" y="300" width="110" height="24" rx="12" fill="#7c3aed" fill-opacity="0.12" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="675" y="316" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">📄 Resume Analysis</text>
+  <rect x="620" y="332" width="102" height="24" rx="12" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="671" y="348" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#93c5fd">🎯 Job Matching</text>
+  <rect x="620" y="364" width="100" height="24" rx="12" fill="#06b6d4" fill-opacity="0.12" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="670" y="380" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#67e8f9">✨ AI Coaching</text>
+
+  <!-- Footer -->
+  <rect x="0" y="500" width="900" height="20" fill="#ffffff" fill-opacity="0.02"/>
+  <text x="450" y="514" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#1e293b">RecruitIQ © 2026 · Powered by OpenRouter AI · Data processed securely in-session</text>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0a1e"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="avatar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="50%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1035;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0f0a1e;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="orbBlur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <circle cx="150" cy="420" r="130" fill="#7c3aed" opacity="0.07" filter="url(#orbBlur)"/>
+  <circle cx="780" cy="100" r="120" fill="#06b6d4" opacity="0.07" filter="url(#orbBlur)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="900" height="52" fill="#ffffff" fill-opacity="0.03"/>
+  <rect x="0" y="51" width="900" height="1" fill="#ffffff" fill-opacity="0.07"/>
+  <text x="36" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="url(#accent)">◈</text>
+  <text x="56" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#7c3aed">Recruit</text>
+  <text x="108" y="33" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#06b6d4">IQ</text>
+  <text x="450" y="32" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b">AI-Powered Career Intelligence Platform</text>
+
+  <!-- Session badge -->
+  <rect x="680" y="14" width="184" height="24" rx="12" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="696" cy="26" r="4" fill="#10b981"/>
+  <text x="706" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#6ee7b7">Alex Johnson · Resume loaded</text>
+
+  <!-- Nav tabs -->
+  <rect x="36" y="64" width="100" height="34" rx="10" fill="url(#accent)" opacity="0.9"/>
+  <text x="86" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="600" fill="white">📄 Resume</text>
+  <rect x="148" y="64" width="100" height="34" rx="10" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="198" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#64748b">🎯 Job Match</text>
+  <rect x="260" y="64" width="110" height="34" rx="10" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="315" y="86" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#64748b">✨ AI Advisor</text>
+
+  <!-- Intelligence Report card -->
+  <rect x="36" y="112" width="828" height="385" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+
+  <!-- Card title -->
+  <text x="62" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="url(#accent)">◈  Resume Intelligence Report</text>
+
+  <!-- Divider -->
+  <rect x="62" y="158" width="776" height="1" fill="#ffffff" fill-opacity="0.06"/>
+
+  <!-- Avatar circle -->
+  <rect x="62" y="172" width="56" height="56" rx="14" fill="url(#avatar)"/>
+  <text x="90" y="207" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="white">A</text>
+
+  <!-- Candidate info -->
+  <text x="132" y="193" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Alex Johnson</text>
+  <text x="132" y="211" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#94a3b8">Senior Software Engineer</text>
+  <rect x="132" y="218" width="64" height="20" rx="10" fill="#7c3aed" fill-opacity="0.15" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="164" y="232" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">6y exp</text>
+  <rect x="204" y="218" width="80" height="20" rx="10" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="244" y="232" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fcd34d">B.Tech CS</text>
+
+  <!-- Summary box -->
+  <rect x="62" y="248" width="500" height="52" rx="10" fill="#000000" fill-opacity="0.25" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="0" />
+  <rect x="62" y="248" width="3" height="52" rx="1.5" fill="#7c3aed" fill-opacity="0.7"/>
+  <text x="76" y="267" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#94a3b8">Experienced full-stack engineer with strong Python and React expertise. Proven track</text>
+  <text x="76" y="283" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#94a3b8">record delivering scalable products in fast-paced startup environments.</text>
+
+  <!-- Divider -->
+  <rect x="62" y="314" width="776" height="1" fill="#ffffff" fill-opacity="0.06"/>
+
+  <!-- Skills section -->
+  <text x="62" y="336" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#64748b" letter-spacing="1">⚡  KEY SKILLS</text>
+  <!-- Skill tags -->
+  <rect x="62" y="344" width="60" height="22" rx="11" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="92" y="359" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">Python</text>
+  <rect x="130" y="344" width="54" height="22" rx="11" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="157" y="359" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">React</text>
+  <rect x="192" y="344" width="48" height="22" rx="11" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="216" y="359" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">AWS</text>
+  <rect x="248" y="344" width="68" height="22" rx="11" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="282" y="359" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">FastAPI</text>
+  <rect x="324" y="344" width="66" height="22" rx="11" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="357" y="359" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">Docker</text>
+  <rect x="398" y="344" width="76" height="22" rx="11" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="436" y="359" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">PostgreSQL</text>
+  <rect x="482" y="344" width="62" height="22" rx="11" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="513" y="359" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#a78bfa">Node.js</text>
+
+  <!-- Divider -->
+  <rect x="62" y="380" width="776" height="1" fill="#ffffff" fill-opacity="0.06"/>
+
+  <!-- Strengths & Growth areas grid -->
+  <!-- Strengths -->
+  <text x="62" y="402" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#64748b" letter-spacing="1">💪  STRENGTHS</text>
+  <text x="62" y="422" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cbd5e1"><tspan fill="#10b981" font-weight="700">✓ </tspan>Strong full-stack architecture skills</text>
+  <text x="62" y="440" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cbd5e1"><tspan fill="#10b981" font-weight="700">✓ </tspan>Proven leadership in agile teams</text>
+  <text x="62" y="458" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cbd5e1"><tspan fill="#10b981" font-weight="700">✓ </tspan>Cloud-native deployment experience</text>
+  <text x="62" y="476" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cbd5e1"><tspan fill="#10b981" font-weight="700">✓ </tspan>Open source contributor</text>
+
+  <!-- Growth areas -->
+  <text x="470" y="402" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#64748b" letter-spacing="1">🔧  GROWTH AREAS</text>
+  <text x="470" y="422" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cbd5e1"><tspan fill="#f59e0b" font-weight="700">→ </tspan>Add quantified metrics to work history</text>
+  <text x="470" y="440" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cbd5e1"><tspan fill="#f59e0b" font-weight="700">→ </tspan>Expand ML / AI project portfolio</text>
+  <text x="470" y="458" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cbd5e1"><tspan fill="#f59e0b" font-weight="700">→ </tspan>Include system design case studies</text>
+
+  <!-- Footer -->
+  <rect x="0" y="500" width="900" height="20" fill="#ffffff" fill-opacity="0.02"/>
+  <text x="450" y="514" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#1e293b">RecruitIQ © 2026 · Powered by OpenRouter AI · Data processed securely in-session</text>
+</svg>
